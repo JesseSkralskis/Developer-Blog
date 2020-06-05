@@ -13,6 +13,7 @@ export function BlogListItem({ id, title, blog, createdAt, history, uid }) {
   return (
     <div className="bloglist_items">
       <h1>{title}</h1>
+
       <div className="bloglist_blog">
         <p>{blog}</p>
       </div>

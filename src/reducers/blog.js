@@ -22,6 +22,7 @@ export default (state = defaultBlogState, action) => {
       });
 
     case "SET_BLOGS":
+      console.log(action.blogs);
       return action.blogs;
 
     default:

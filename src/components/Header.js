@@ -13,7 +13,7 @@ const Header = ({ startLogout }) => (
         {" "}
         <Link className="header__link" to="/dashboard">
           {" "}
-          <h1 id="header__h1">Pivot</h1>
+          <h1 id="header__h1">Pathways</h1>
         </Link>
       </div>
 
